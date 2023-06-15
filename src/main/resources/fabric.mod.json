@@ -1,0 +1,41 @@
+{
+	"schemaVersion": 1,
+	"id": "dreambacktobianjing",
+	"version": "${version}",
+	"name": "Dream Back to Bianjing",
+	"description": "东京梦华录",
+	"authors": [
+		"crazy_piggy_"
+	],
+	"contact": {
+		"homepage": "not yet",
+		"sources": "https://github.com/Funny-Developers/Dream-Back-to-Bianjing"
+	},
+	"license": "MIT",
+	"icon": "assets/dreambacktobianjing/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"org.funnydevelopers.dreambacktobianjing.Main"
+		],
+		"client": [
+			"org.funnydevelopers.dreambacktobianjing.Client"
+		]
+	},
+	"mixins": [
+		"dreambacktobianjing.mixins.json",
+		{
+			"config": "dreambacktobianjing.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.14.21",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
