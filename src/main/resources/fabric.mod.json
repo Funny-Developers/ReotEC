@@ -1,8 +1,8 @@
 {
 	"schemaVersion": 1,
-	"id": "dreambacktobianjing",
+	"id": "reotec",
 	"version": "${version}",
-	"name": "Dream Back to Bianjing",
+	"name": "Reminiscences of the Eastern Capital",
 	"description": "东京梦华录",
 	"authors": [
 		"crazy_piggy_",
@@ -10,23 +10,23 @@
 	],
 	"contact": {
 		"homepage": "not yet",
-		"sources": "https://github.com/Funny-Developers/Dream-Back-to-Bianjing"
+		"sources": "https://github.com/Funny-Developers/ReotEC"
 	},
 	"license": "MIT",
-	"icon": "assets/dreambacktobianjing/icon.png",
+	"icon": "assets/reotec/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"org.funnydevelopers.dreambacktobianjing.Main"
+			"org.funnydevelopers.reotec.Main"
 		],
 		"client": [
-			"org.funnydevelopers.dreambacktobianjing.Client"
+			"org.funnydevelopers.reotec.Client"
 		]
 	},
 	"mixins": [
-		"dreambacktobianjing.mixins.json",
+		"reotec.mixins.json",
 		{
-			"config": "dreambacktobianjing.client.mixins.json",
+			"config": "reotec.client.mixins.json",
 			"environment": "client"
 		}
 	],

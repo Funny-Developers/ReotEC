@@ -1,4 +1,4 @@
-package org.funnydevelopers.dreambacktobianjing;
+package org.funnydevelopers.reotec;
 
 import net.fabricmc.api.ClientModInitializer;
 

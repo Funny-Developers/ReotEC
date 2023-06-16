@@ -1,4 +1,4 @@
-package org.funnydevelopers.dreambacktobianjing.mixin;
+package org.funnydevelopers.reotec.mixin;
 
 import net.minecraft.server.MinecraftServer;
 import org.spongepowered.asm.mixin.Mixin;
@@ -10,7 +10,7 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
  * @since 下次注意
  */
 @Mixin(MinecraftServer.class)
-public class MixinMinecraftServer {
+public class ServerMixin {
     @Inject(at = @At("HEAD"), method = "loadWorld")
     private void init(CallbackInfo info) {
         ;
